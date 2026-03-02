@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Usaha Buku Ahmad Zaki Amani</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav class="navbar">
+  <ul>
+     <li><a href="index.html">Home</a></li>
+    <li><a href="produk.html">Produk</a></li>
+    <li><a href="Bedah buku Artikel .html">Bedah Buku Artikel</a></li>
+      <li><a href="Testimoni.html">Testimoni</a></li>
+       <li><a href="Tampilan Testimoni.html">Testimoni Pembeli</a></li>
+         <li><a href="Video Produk Event.html">Video Produk Event</a></li>
+                    <li><a href="Kontak.html">Kontak</a></li>
+    
+     
+  </ul>
+</nav>
+<nav class="navbar">
+
+
+
+<section class="daftar-produk">
+  <div class="produk">
+    <img src="images/ChatGPT Image Feb 16, 2026, 10_44_06 AM.png" alt="Logo Usaha Buku Ahmad Zaki">
+  </div>
+</section>
+
+<div class="container">
+
+  <div class="stat-card">
+    <span class="counter" data-target="15340">0</span>
+    <span class="label">Pengunjung Puas</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="8435435">0</span>
+    <span class="label">Data Pengunjung</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="925530">0</span>
+    <span class="label">Buku Favorit</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="545350">0</span>
+    <span class="label">Pengunjung Terbaik</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="9354449">0</span>
+    <span class="label">Rating Positif</span>
+  </div>
+
+</div>
+
+
+<script>
+const counters = document.querySelectorAll('.counter');
+
+counters.forEach(counter => {
+  const updateCount = () => {
+    const target = +counter.getAttribute('data-target');
+    const count = +counter.innerText;
+
+    const speed = 150;
+    const increment = target / speed;
+
+    if (count < target) {
+      counter.innerText = Math.ceil(count + increment);
+      setTimeout(updateCount, 15);
+    } else {
+      counter.innerText = target;
+    }
+  };
+
+  updateCount();
+});
+</script>
+
+<!-- KONTEN UTAMA -->
+<h1>Selamat Datang di Usaha Buku Kami</h1>
+<p>Website ini berisi informasi tentang produk buku, bedah buku, dan testimoni pelanggan.</p>
+
+<h2>“Ilmu yang Dibaca, Manfaat yang Dirasakan.”</h2>
+
+<h1>Mengenal Ukuran Buku by Ahmad Zaki</h1>
+<p>
+Ukuran buku merupakan salah satu aspek penting yang memengaruhi kenyamanan membaca dan fungsi buku itu sendiri.
+Setiap ukuran buku dirancang untuk kebutuhan yang berbeda, seperti buku pelajaran, novel, referensi, atau buku anak.
+Buku berukuran kecil biasanya praktis dibawa dan cocok untuk bacaan ringan.
+Sementara itu, buku berukuran sedang hingga besar memberikan ruang lebih luas untuk teks, gambar, dan tabel.
+Pemilihan ukuran buku yang tepat membantu meningkatkan kenyamanan pembaca serta menyesuaikan isi buku dengan tujuan penggunaannya.
+</p>
+
+<h1>Jenis-Jenis Buku by Ahmad Zaki</h1>
+<p>
+Buku memiliki berbagai jenis yang disesuaikan dengan isi dan tujuan pembuatannya.
+Buku pelajaran dan edukasi digunakan sebagai sarana belajar di sekolah maupun secara mandiri.
+Buku pengetahuan umum berisi informasi yang menambah wawasan pembaca.
+Buku pengembangan diri membantu meningkatkan kemampuan dan motivasi pribadi.
+Selain itu, terdapat buku agama yang memperdalam nilai spiritual serta buku novel dan fiksi yang menyajikan cerita untuk hiburan dan inspirasi.
+</p>
+
+<h1>Tips Merawat Buku by Ahmad Zaki</h1>
+<p>
+Merawat buku dengan baik dapat memperpanjang usia dan menjaga kualitasnya.
+Simpan buku di tempat yang kering dan terhindar dari kelembapan agar tidak berjamur.
+Gunakan pembatas buku untuk menandai halaman, hindari melipat atau merobek kertas.
+Pegang buku dengan tangan bersih agar halaman tidak cepat kotor.
+Susun buku secara rapi di rak dan jauhkan dari sinar matahari langsung.
+Dengan perawatan yang tepat, buku akan tetap awet dan nyaman dibaca.
+</p>
+
+<h1>Informasi Mencari Buku Terbaik</h1>
+<p>
+Mencari buku terbaik membutuhkan ketelitian dan sumber yang terpercaya.
+Informasi sebaiknya diperoleh dari buku, media resmi, dan referensi yang memiliki kredibilitas tinggi.
+Membandingkan beberapa sumber dapat membantu memastikan keakuratan data yang didapat.
+Selain itu, pembaca perlu memilah informasi yang relevan dengan kebutuhan dan tujuan.
+Dengan cara ini, informasi yang diperoleh tidak hanya lengkap, tetapi juga benar dan bermanfaat.
+</p>
+
+<h1>Lokasi Toko Kami</h1>
+<p>
+Jalan Besuk, RT.11/RW.04, Besuk, Sambungrejo, Kec. Sukodono,
+Kabupaten Sidoarjo, Jawa Timur 61258
+</p>
+
+<h1>Kontak Admin Toko</h1>
+<p>
+Untuk informasi lebih lanjut, silakan menghubungi kami melalui nomor 0812-4924-6696.
+</p>
+
+
+<footer>
+  <p>&copy; 2026 Usaha Buku Ahmad Zaki Amani. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
